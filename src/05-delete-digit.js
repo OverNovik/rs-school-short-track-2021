@@ -10,7 +10,9 @@
  *
  */
 function deleteDigit() {
-  // const arr = Array.from(n);
+  // for (let i = 0; i < n.length; i++) {
+
+  // }
 }
 
 module.exports = deleteDigit;

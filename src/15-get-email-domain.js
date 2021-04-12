@@ -8,13 +8,9 @@
  * For the input 'prettyandsimple@example.com', the output should be 'example.com'
  *
  */
-function getEmailDomain() {
-  // const str = '';
-  // for (const i in email) {
-  //   if (email.charAt(i) === '@') {
-
-  //   }
-  // }
+function getEmailDomain(email) {
+  const atIndex = email.lastIndexOf('@');
+  return email.slice(atIndex + 1);
 }
 
 module.exports = getEmailDomain;

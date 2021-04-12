@@ -15,12 +15,10 @@ function getCommonCharacterCount(s1, s2) {
   let str2 = s2.toLowerCase();
 
   for (let i = 0; i < str1.length; i++) {
-    // for (let j = 0; j < str2.length; j++) {
     if (str2.includes(str1[i])) {
       countSymbol++;
       str2 = str2.replace(str1[i], '');
     }
-    // }
   }
   return countSymbol;
 }
